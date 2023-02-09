@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Project 23</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+
+    <div class="center">
+        <div class="calculator p-3 rounded shadow">
+            <input class="form-control mb-3">
+            <table>
+                <tr>
+                    <td onclick="displaynum(7)">7</td>
+                    <td onclick="displaynum(8)">8</td>
+                    <td onclick="displaynum(9)">9</td>
+                    <td onclick="displaynum('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="displaynum(4)">4</td>
+                    <td onclick="displaynum(5)">5</td>
+                    <td onclick="displaynum(6)">6</td>
+                    <td onclick="displaynum('*')">*</td>
+                </tr>
+                <tr> 
+                    <td onclick="displaynum(1)">1</td>
+                    <td onclick="displaynum(2)">2</td>
+                    <td onclick="displaynum(3)">3</td>
+                    <td onclick="displaynum('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="displaynum(0)">0</td>
+                    <td onclick="displaynum('.')">.</td>
+                    <td onclick="displaynum('+')">+</td>
+                    <td class="equal">=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src='main.js'></script>
+</body>
+
+</html>

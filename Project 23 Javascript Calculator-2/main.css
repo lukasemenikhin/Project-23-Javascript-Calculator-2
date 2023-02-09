@@ -1,0 +1,48 @@
+@font-face {
+    font-family: antoni;
+    src: url(fonts/Anton-Regular.ttf);
+}
+
+body {
+    font-family: antoni;
+    background-color: rgb(32, 32, 32);
+    font-size: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    border: solid 1px rgb(61, 61, 61);
+    background-color: rgb(61, 61, 61);
+}
+
+table {
+    width: 100%;
+}
+
+input {
+    background-color: rgb(52, 168, 130) !important;
+}
+
+td {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: solid 5px rgb(61, 61, 61);
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+td:hover {
+    background-color: rgb(206, 200, 200);
+}
+
+.equal {
+    background-color: burlywood;
+}
